@@ -22,6 +22,58 @@
 </details>
 
 <details>
+<summary>Recursion</summary>
+
+## 재귀란
+- 자기 자신을 호출하는 함수
+
+## 재귀는 어디에 쓰일까?
+- JSON.parse나 JSON.stringify
+  - 이 두 가지는 자바스크립트 엔진으로 실행 - 재귀적으로 작성하는 경우가 많다.
+- document.getElementById && DOM traversal algorithms
+  - DOM은 모든 요소가 중첩된 트리 구조로 되어 있다.
+- Object traversal
+
+## 호출 스택
+- 호출 스택은 자바스크립트의 보이지 않는 곳에서 작동하는 정적 데이터 구조(static data structure)이다.
+- 재귀 함수는 계속해서 스택을 추가한다.
+
+## 재귀 함수의 두 가지 기본 요소
+1. 종료 조건 (Base Case or End point)
+2. 다른 input
+
+## 팩토리얼(Factorial)
+- 4! = 4 * 3 * 2 * 1
+```js
+function factorial(num) {
+  if (num === 1) {
+    return 1;
+  }
+  return num * (num - 1);
+}
+```
+
+## 재귀의 함정
+- 종료 조건이 없는 경우
+- 잘못된 값을 반환하거나 반환하지 않는 경우
+- Stack overflow
+
+## Helper Method Recursion
+- 두 개의 함수가 있다.
+  1. 메인 외부 함수
+  2. 메인 외부 함수 안의 재귀 함수
+
+## 배열을 복사하는 메서드 활용하기
+배열을 사용하고 헬퍼 메소드 없이 순수 재귀 솔루션을 작성하는 경우, 배열을 복사하는 `slice`, `spread 연산자`, `concat` 같은 메소드를 사용할 수 있다. 그러면 배열을 변경할 필요가 없다. 그리고 일종의 결과를 축적할 수도 있다.
+
+## 문자열 - slice, substring 사용해서 사본 만들기
+
+
+## 객체 - Object.assign, spread 연산자
+
+</details>
+
+<details>
 <summary>JavaScript Method</summary>
 
 ### sort()
