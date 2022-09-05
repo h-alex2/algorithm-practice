@@ -1,8 +1,8 @@
 {
-  "name": "algorithm-problems",
+  "name": "algorithm-practice",
   "version": "1.0.0",
-  "description": "Algorithm Challenge",
-  "author": "Ken Huh <ken@vanillacoding.co>",
+  "description": "Algorithm Practice",
+  "author": "",
   "license": "ISC",
   "scripts": {
     "build": "mocha --require @babel/register --reporter mocha-junit-reporter --reporter-options mochaFile=./report.xml",
