@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import isSubsequence from "../practice/pointer/isSubsequence"
+import isSubsequence from "../../practice/pointer/isSubsequence"
 
 describe("isSubsequence", () => {
   it("첫 번째 인자의 각 character 순서가 바뀌면 false를 return 해야 한다." , () => {
