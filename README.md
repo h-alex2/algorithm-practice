@@ -4,6 +4,8 @@
 <details>
 <summary>Pointer</summary>
 
+# Pointer
+
 ## Frequency Counter 빈도수 세기 패턴
 - 보통 js 객체를 사용해서 다양한 값과 빈도를 수집하는 것
 
@@ -23,6 +25,8 @@
 
 <details>
 <summary>Recursion</summary>
+
+# Recursion
 
 ## 재귀란
 - 자기 자신을 호출하는 함수
@@ -74,7 +78,46 @@ function factorial(num) {
 </details>
 
 <details>
+<summary>Search</summary>
+
+# Search
+
+## Linear Search
+- `indexOf`, `includes`, `find`, `findIndex`
+- 한 번에 하나의 항목
+- 배열의 처음부터 끝까지 이동하면서 체크
+
+### Linear Search Big O
+- Best: O(1)
+- Average: O(n)
+- Worst: O(n)
+
+## Binary Search 이진 검색
+- 이진 검색에서는 확인을 할 때마다 남은 절반을 없앨 수 있다.
+- 이진 검색은 분류된 배열을 대상으로만 작동하므로 __정렬되어 있어야 한다.__
+
+### 의사코드
+- 분류된 배열을 인자로 받는다.
+- 2개의 변수를 만든다. pointer
+- 연산하기 `좌측 < 우측`
+- 좌측에 없으면 좌측 포인터를 중간 인덱스로 바꾼다.
+
+### Divide and Conquer 분할과 정복
+- 배열을 두 부분으로 나누기
+
+### Big O
+- Best: O(1)
+- Worst and Average: O(log n)
+
+## Naive String Search 나이브 문자열 검색
+
+
+</details>
+
+<details>
 <summary>JavaScript Method</summary>
+
+# JS Method
 
 ### sort()
 - Tim Sort를 사용해서 구현되어짐
