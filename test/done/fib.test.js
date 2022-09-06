@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import fib from "../practice/recursion/fib";
+import fib from "../../practice/recursion/fib";
 
 describe("fib", () => {
   it("피보나치 수열에서 n번째 숫자를 반환하여야 한다.", () => {
