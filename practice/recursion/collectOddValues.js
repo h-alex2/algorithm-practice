@@ -12,7 +12,7 @@ export default function collectOddValues(arr) {
   return newArr;
 }
 
-// solution 2. helper 함수 사용
+// * solution 2. helper 함수 사용
 
 // export default function collectOddValues(arr) {
 //   const result = [];
