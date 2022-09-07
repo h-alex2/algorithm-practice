@@ -115,6 +115,42 @@ function factorial(num) {
 </details>
 
 <details>
+<summary>Sorting</summary>
+
+# Sorting
+- 접근법이 다양하다.
+
+## Bubble Sort
+<img src="https://c.tenor.com/h78xhYVtmgUAAAAd/sort-graph.gif" alt="bubble-sort">
+
+- 그렇게 효율적이지는 않다. 많이 사용하지 x
+- 유스 케이스 : 정렬이 거의 되어 있을 때
+- 반복을 거듭함에 따라 정렬해야 하는 수가 감소
+
+1. 중첩 루프를 만든다
+2. 바깥쪽 루프는 `i = arr.length; i > 0, i--`
+3. 안쪽 루프는 `j = 0; i < i - 1; i++`
+  - 계속 처음부터 비교하지 않기 위해서 i를 하나씩 없애준다. (한 번 순회하고 난 후라면 제일 오른쪽에 정렬되어 있는 항목이 있을 것)
+
+- 데이터가 거의 정렬 되어 있다면?
+
+## Selection Sort
+<img src="https://c.tenor.com/R6mBrn0nQ1MAAAAC/sort-graph.gif">
+
+- 큰 값을 배열 끝에 위치 시키는 대신 작은 값을 한 번에 하나씩 위치에 배열한다.
+- 선택 정렬이 버블 정렬보다 더 나은 건 단 하나
+  -swap을 최소화 하고 싶은 경우
+
+## Insertion Sort 삽입 정렬
+<img src="https://c.tenor.com/XELXhlgR6ZEAAAAd/sort-graph.gif">
+- 하나씩 이동하거나, 한 번에 가장 큰 요소를 찾거나 한 번에 가장 작은 요소를 찾는 대신 각 요소를 취하여 정렬되어 있는 절반 속 해당되는 위치에 배치한다.
+- 한 번에 하나의 항목을 올바른 위치에 삽입해서 배열의 정렬된 부분을 점진적으로 구축한다.
+
+
+</details>
+
+
+<details>
 <summary>JavaScript Method</summary>
 
 # JS Method
