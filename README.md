@@ -1,6 +1,11 @@
 # Algorithm Practice
 알고리즘 문제를 풀고 정리하는 공간입니다.
 
+## 자료구조
+- 자료 구조들은 해당 데이터에 적용되는 값들 및 기능 혹은 작업들 사이의 관계를 포함
+- 특정한 패턴 혹은 관계가 정해져 있다.
+- 어떤 것도 최고가 아니다. 다들 각각 정해진 일을 할 뿐. 결국 그것들 모두는 서로 다른 상황에서 그것들만의 탁월함을 갖고 있다.
+
 <details>
 <summary>Pointer</summary>
 
@@ -146,8 +151,29 @@ function factorial(num) {
 - 하나씩 이동하거나, 한 번에 가장 큰 요소를 찾거나 한 번에 가장 작은 요소를 찾는 대신 각 요소를 취하여 정렬되어 있는 절반 속 해당되는 위치에 배치한다.
 - 한 번에 하나의 항목을 올바른 위치에 삽입해서 배열의 정렬된 부분을 점진적으로 구축한다.
 
+## 합병 정렬 Merge Sort
+- 분할 -> 합병
+
+## 퀵 정렬
+
+## 
+
 
 </details>
+
+<details>
+<summary>class 복습</summary>
+
+```js
+class Student {
+  constructor(firstName, lastName) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+  }
+}
+
+</details>
+
 
 
 <details>
